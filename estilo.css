@@ -1,0 +1,115 @@
+/* DOCUMENTO CSS - Projeto CARD */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI';
+    color: black;
+}
+
+#topo {
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    display: flex;
+}
+
+#titulo {
+    color: wheat;
+    font-size: 25px;
+    width: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo h2 {
+    color: crimson;
+}
+
+#logo {
+    width: 30%;
+
+}
+
+#conteudo {
+    background-color: wheat;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    color: wheat;
+    width: 300px;
+    height: 435px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #a4a4a4;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.card figure {
+    width: 290px;
+    height: 290px;
+    background-color: cornsilk;
+    border-radius: 10px;
+}
+
+.card figure img {
+    width: 100%;
+}
+
+.card h2 {
+    position: absolute;
+    display: inline;
+    background-color: rgba(00, 00, 00, 0.5);
+}
+
+#zayin {
+    color:lime;
+}
+
+#teth {
+    color:cornflowerblue;
+}
+
+#he {
+    color: yellow;
+}
+
+#waw {
+    color:blueviolet;
+}
+
+#aleph {
+    color:red;
+}
+
+.card h3 {}
+
+.card h4 {}
+
+.card p {}
+
+#rodape {
+    background-color: crimson;
+    height: 100px;
+    text-align: center;
+    padding: 30px;
+    border-top: 5px solid rgba(0, 0, 0, 0.2);
+}
